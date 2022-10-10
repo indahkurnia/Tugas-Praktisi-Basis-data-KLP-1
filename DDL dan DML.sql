@@ -31,8 +31,8 @@ foreign key (course_id) references courses (course_id)
 );
 desc schedule
 
-DML--
-masukkan data pada tabel students
+--DML--
+--masukkan data pada tabel students--
 INSERT INTO students (`full name`, address, major)
 VALUE 
 ("Rendy Luis", "Jalan Sahabat", "Sistem Informasi"),
